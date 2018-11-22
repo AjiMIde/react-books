@@ -10,13 +10,6 @@ This is my react learning note - bye AjiMIde 2018-10-24
 * 本札记内容均来自《中文官网》的内容，特点为精炼，简单，只供一个简单的参考。
 * 你可以在首页直接查看文档，或是直接入手**教程**
 
-## 目录
+## 须知
 
-#### 官网->文档
-* 安装 `0.Installation.md`
-    * 开始 `Getting Started`
-    * 使用 React 开发新项目 `Create a New React App`
-    * 在现有项目中添加 React `Add React to an Existing Application`
-    * CDN 支持 `CDN Links`
-* 主要概念
-    * 
+* 基于版本 16.5.2
