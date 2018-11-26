@@ -19,5 +19,6 @@
   
 * 博客  
   * [配置React打包路径（本地打开）](Question/20170910-Config-Open-At-local.md)
+  * [在 WebStorm 中配置 React for Flow](Question/20171010-Config-flow-in-WebStorm.md)
   
 
