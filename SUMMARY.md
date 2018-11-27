@@ -7,7 +7,7 @@
   * [2. 在现有项目中添加 React Add React to an Existing Application](Installation/2.Add-React-To-Old.md)
   * [3. CDN 支持](Installation/3.CDN.md)
   
-* 基础  
+* 基础
   * [0. Jsx 与元素渲染](Basic/0.Jsx.md)
   * [1. 组件](Basic/1.Components.md)
   * [2. 条件判断与列表渲染](Basic/2.Judgment-and-List.md)
@@ -16,6 +16,9 @@
   
 * 高级指引  
   * [0. 深入使用 Jsx](Advanced/0.Deep-in-Jsx.md)
+  * [1. Prop Types 使用](Advanced/1.PropTypes.md)
+  * [2. Type-checker 类型检查器使用](Advanced/2.Type-Checker.md)
+  * [3. Refs 操纵 Dom 使用](Advanced/3.Refs&Dom.md)
   
 * 博客  
   * [配置React打包路径（本地打开）](Question/20170910-Config-Open-At-local.md)
