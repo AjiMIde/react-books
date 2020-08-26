@@ -10,7 +10,7 @@ npm install antd --save
 
 #### 使用：
 
-```js
+```jsx
 import 'antd/dist/antd.css'
 import { DatePicker } from 'antd'
 
@@ -23,7 +23,6 @@ class InstallAntd extends Component {
       </div>
     )
   }
-  
 }
 ```
 
