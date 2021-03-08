@@ -24,6 +24,10 @@
   * [2. Type-checker 类型检查器使用](Advanced/2.Type-Checker.md)
   * [3. Refs 操纵 Dom 使用](Advanced/3.Refs&Dom.md)
   
+ * 配置
+  * [0.CRA-react-app-rewired使用](Config/00.react-app-rewired.md)
+    
+  
 * Hooks使用
    * [Hooks使用](./Hooks/_hooks.md)
   
