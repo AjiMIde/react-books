@@ -3,8 +3,11 @@
 ## 目录
 * [安装使用](#安装使用)
 * [常用页面与route组合](#常用页面与route组合)
-* [](#)
-* [](#)
+* [使用标签](#使用标签)
+* [编程式导航](#编程式导航)
+* [读取参数](#读取参数)
+* [嵌套路由](#嵌套路由)
+
 
 ## 安装使用
 
@@ -169,4 +172,19 @@ function Nba() {
   </Route>
 </Switch>
 ```
+
+
+## 使用loadable动态加载页面
+
+* 这里建议与`react.lazy`对比使用
+
+```js
+// cnpm i -S @loadable/component
+const pack = {
+  path: 'test2',
+  name: 'test2',
+  comp: loadable(() => import(/*webpackChunkName: "test2"*/'@views/Test/Test2'))
+}
+```
+
 
