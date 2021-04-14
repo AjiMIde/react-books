@@ -174,11 +174,19 @@ function Nba() {
 ```
 
 
-## 使用loadable动态加载页面
+## 使用`react.lazy`或loadable动态加载页面
 
-* 这里建议与`react.lazy`对比使用
+```typescript jsx
+const Home = React.lazy(() => import('./home'))
+  <Router>
+  <Suspense fallback={<div>Loading...</div>}>
+<Switch>
+<Route exact path="/" component={Home}/>
+<Route path="/about" component={About}/>
+</Switch>
+</Suspense>
+</Router>
 
-```js
 // cnpm i -S @loadable/component
 const pack = {
   path: 'test2',

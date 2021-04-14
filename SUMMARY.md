@@ -24,15 +24,17 @@
   * [2. Type-checker 类型检查器使用](Advanced/2.Type-Checker.md)
   * [3. Refs 操纵 Dom 使用](Advanced/3.Refs&Dom.md)
   * [4. React.Memo, PureComponent, Function组件及组件渲染](./Advanced/04.React.memo-and-pure-comp-and-so-on.md)
-  * [5. React.lazy与Suspense]()
+  * [5. React.lazy与Suspense](./Advanced/05.React.lazy-Suspense.md)
   
  * 配置
   * [0.CRA-react-app-rewired使用](Config/00.react-app-rewired.md)
   * [1.从零配置一个react项目](Config/01.react-0-to-1.md)
 
 * Hooks使用
-   * [Hooks使用](./Hooks/_hooks.md)
-  
+  * [Hooks使用](./Hooks/_hooks.md)
+  * [01.UseMemo](./Hooks/01.UseMemo.md)
+  * [02.UseCallback](./Hooks/02.UseCallback.md)
+
 * 博客  
   * [配置React打包路径（本地打开）](Question/20170910-Config-Open-At-local.md)
   * [在 WebStorm 中配置 React for Flow](Question/20171010-Config-flow-in-WebStorm.md)
