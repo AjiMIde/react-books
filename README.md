@@ -13,6 +13,9 @@ This is my react learning note - bye AjiMIde 2018-10-24
 ## 须知
 
 * 基于版本 16.5.2
+* 2024基于`vitepress`重构阅读逻辑
+* 2024年备注：年久失修，且内容基于`react16`，不建议花费过多时间
+* 但`vita`基于面试的内容可以多看
 
 
 
