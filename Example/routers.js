@@ -70,3 +70,6 @@ export function RV6 () {
     </RouterH>
   )
 }
+
+
+// in app.js :       <RouterConfig />
