@@ -1,4 +1,29 @@
 import { defineConfig } from 'vitepress'
+// import './config.css' todo 有问题
+
+const sideReact18ViteTs = {
+  text: 'React 18 vite ts',
+  items: [
+    { text: 'vite搭建', link: 'react18-vite-ts/0.vite-create.md' },
+  ]
+}
+
+const sideReactRouter = {
+  text: 'React Router',
+  items: [
+    { text: 'react router v5', link: 'Router/1.v5-react-router.md' },
+    { text: 'react router v6', link: 'Router/2.v6-react-router.md' },
+    { text: 'react router v6 完善', link: 'Router/3.v6-react-router-all-config.md' },
+    { text: 'react router v6 Hook', link: 'Router/4.v6-react-router-all-hooks.md' },
+  ]
+}
+
+const sideStore = {
+  text: 'Store',
+  items: [
+    { text: 'jotai', link: 'Store/1.jotai.md' },
+  ]
+}
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -9,7 +34,6 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' },
-      { text: 'xx', link: '/xxxx' }
     ],
 
     sidebar: [
@@ -20,8 +44,11 @@ export default defineConfig({
           {text: 'Runtime API Examples', link: '/api-examples'}
         ]
       },
+      sideReact18ViteTs,
+      sideReactRouter,
+      sideStore,
       {
-        text: '安装',
+        text: '安装1',
         collapsed: true,
         items: [
           {text: '开始', link: '/Installation/0.Started'},
