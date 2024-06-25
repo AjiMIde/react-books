@@ -25,6 +25,22 @@ const sideStore = {
   ]
 }
 
+const sideAdvanced2 = {
+  text: '高级指引2',
+  items: [
+    { text: 'ref', link: 'Advanced2/0.ref.md' },
+  ]
+}
+const sideTs = {
+  text: '挑屎',
+  items: [
+    { text: 'Html 应用', link: 'Ts/0.Html-ts.md' },
+    // https://juejin.cn/post/7021674818621669389
+  ]
+}
+
+
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "My react books",
@@ -47,6 +63,7 @@ export default defineConfig({
       sideReact18ViteTs,
       sideReactRouter,
       sideStore,
+      sideAdvanced2,
       {
         text: '安装1',
         collapsed: true,
