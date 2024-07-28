@@ -1,6 +1,9 @@
 {
   "dependencies": {
-    "antd": "^4.22.7"
+    "antd": "^4.22.7",
+    "axios": "^1.7.2",
+    "lodash": "^4.17.21",
+    "swiper": "^11.1.4"
   },
   "devDependencies": {
     "vitepress": "^1.2.0"

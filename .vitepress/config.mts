@@ -3,8 +3,10 @@ import { defineConfig } from 'vitepress'
 
 const sideReact18ViteTs = {
   text: 'React 18 vite ts',
+  collapsed: false,
   items: [
     { text: 'vite搭建', link: 'react18-vite-ts/0.vite-create.md' },
+    { text: 'vite plugin react', link: 'react18-vite-ts/1.vite-plugin-react.md' },
   ]
 }
 
@@ -36,6 +38,7 @@ const sideTs = {
   items: [
     { text: 'Html 应用', link: 'Ts/0.Html-ts.md' },
     // https://juejin.cn/post/7021674818621669389
+    { text: 'prettier', link: 'Ts/0.prettier.md' },
   ]
 }
 
@@ -45,6 +48,8 @@ const sideTs = {
 export default defineConfig({
   title: "My react books",
   description: "My react boos for react 16/18",
+  ignoreDeadLinks: true,
+  // base: './',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
