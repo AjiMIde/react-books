@@ -1,0 +1,16 @@
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.router-loading-circle {
+  width: 30px; /* 圆的宽度 */
+  height: 30px; /* 圆的高度 */
+  border: 3px solid transparent; /* 边框透明，以便只显示需要的部分 */
+  border-top-color: #dadada; /* 顶部边框 */
+  border-left-color: #dadada; /* 左侧边框 */
+  border-right-color: #dadada;
+  border-radius: 30px;
+  position: relative; /* 使伪元素定位相对于父元素 */
+  animation: spin 1s infinite linear; /* 旋转动画 */
+}
+
